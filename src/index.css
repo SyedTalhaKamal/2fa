@@ -1,0 +1,88 @@
+.btnClass {
+    background-color: #0C3C84;
+    border: 1px solid #0C3C84;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+}
+
+.btnClass:hover {
+    background-color: transparent;
+    color: #0C3C84;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: self-start;
+}
+
+.mt-2 {
+    margin-top: 0.5rem
+}
+
+.code-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0C3C84;
+    margin-bottom: 30px;
+}
+
+.codeName {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.code {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.codeIcon {
+    font-size: 50px !important;
+    color: #0C3C84;
+    margin-right: 10px;
+}
+
+.timer-container {
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
